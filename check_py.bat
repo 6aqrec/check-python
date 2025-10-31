@@ -35,4 +35,6 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 echo Python and pip are ready. Continuing script...
+
 %PYTHON_EXE% -m pip install requests
+PAUSE
