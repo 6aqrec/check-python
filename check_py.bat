@@ -34,5 +34,6 @@ IF %ERRORLEVEL% NEQ 0 (
     echo pip is installed.
 )
 
-echo Python and pip are ready. Continuing script...
+echo Python and pip are ready.
 %PYTHON_EXE% -m pip install requests
+
